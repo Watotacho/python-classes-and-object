@@ -39,20 +39,37 @@ b=set(x)
 print(b)
 #7
 students = [{"age": 19, "name": "Eunice"}, {"age": 21, "name": "Agnes"},{"age": 18, "name": "Teresa"}, {"age": 22, "name": "Asha"}]
-def greeting():
+def greetings():
     for student in students:
         print("Hello {}, you were born in the year {}".format(student['name'],2021-student['age']))
 
-greeting()
+greetings()
 
-class Rectangle():
+#class Rectangle():
+   # def __init__(self,width,length):
+        #self.width=width
+        #self.length=length
+    #def area():
+       # return 6*5
+    #def perimeter():
+        #return 8*6
+class Rectangle:
     def __init__(self,width,length):
         self.width=width
         self.length=length
-    def area():
-        return 6*5
-    def perimeter():
-        return 8*6
+
+    def area(self,area):
+        self.width=10
+        self.length=20
+        area=self.width*self.length
+
+    print(area)
+
+    def perimeter(self,perimeter):
+        self.width=10
+        self.length=20
+        perimeter=2(self.length+self.width)
+    print(perimeter)
 
 
 
