@@ -43,7 +43,7 @@ def greetings():
     for student in students:
         print("Hello {}, you were born in the year {}".format(student['name'],2021-student['age']))
 
-greetings()
+
 
 #class Rectangle():
    # def __init__(self,width,length):
